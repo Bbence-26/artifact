@@ -16,3 +16,13 @@ class Sculpture:
 
     def __str__(self):
         return f"Sculpture: {self.name}, {self.artist}, {self.year}"
+
+
+class Building:
+    def __init__(self, name, location, year):
+        self.name = name
+        self.location = location
+        self.year = year
+
+    def __str__(self):
+        return f"Building: {self.name}, Location: {self.location}, Year: {self.year}"
